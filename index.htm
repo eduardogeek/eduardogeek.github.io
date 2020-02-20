@@ -4,12 +4,17 @@
   <meta http-equiv="content-type" content="text/html"; charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
   <title>Eduardo Geek</title>
 </head>
 
 <body>
 
-<header  id="home" >
+<header  id="home">
   <div class="header-text">
     <h1>EDUARDO GOULART LÜDERS</h1>
     <h4>IT Leader &bull; IT Analyst &bull; IT Infrastructure Analyst &bull; IT Support Analyst</h4>
@@ -349,7 +354,24 @@
 </section>
 
 <section id="courses" class="p-150">
-  <div class="container"><h3>COURSES - COMING SOON</h3></div>
+  <div class="container"><h3>COURSES, EVENTS and WORKSHOP</h3>
+    <table id="table-courses" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th>Title</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
 </section>
 
 <section id="skills" class="p-150">
