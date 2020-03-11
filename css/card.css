@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: 5px;
+  align-items: stretch;
+}
+
+.grid > article {
+  border: 1px solid #333;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  background: #fff;
+}
+
+.grid > article img {
+  border-bottom: 1px solid #000;
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 0px 10px 0px 10px;
+}
